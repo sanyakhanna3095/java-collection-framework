@@ -8,7 +8,7 @@ public class ListRotation {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         //Take user input for number of elements and elements itself
-        System.out.println("Eneter number of elements: ");
+        System.out.println("Enter number of elements: ");
         int n=sc.nextInt();
         List<Integer> l=new ArrayList<>();
         System.out.println("Enter " + n+ " integers: ");
