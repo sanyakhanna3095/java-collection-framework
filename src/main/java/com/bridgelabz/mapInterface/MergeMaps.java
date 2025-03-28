@@ -45,3 +45,29 @@ public class MergeMaps {
     }
 }
 
+/*
+I/P ->
+Enter number of key-value pairs for Map1:
+2
+Enter key (String):
+A
+Enter value (Integer):
+1
+Enter key (String):
+B
+Enter value (Integer):
+2
+Enter number of key-value pairs for Map2:
+2
+Enter key (String):
+B
+Enter value (Integer):
+3
+Enter key (String):
+C
+Enter value (Integer):
+4
+
+O/P->
+Merged Map: {A=1, B=5, C=4}
+ */
