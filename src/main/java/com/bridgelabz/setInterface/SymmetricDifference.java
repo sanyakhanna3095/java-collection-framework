@@ -31,8 +31,6 @@ public class SymmetricDifference {
 
         // Display Result
         System.out.println("Symmetric Difference: " + symmetricDifference);
-
-        sc.close();
     }
 
     // Helper method to take input and return a set
@@ -43,7 +41,8 @@ public class SymmetricDifference {
             if (input.equalsIgnoreCase("done")) break;
             try {
                 set.add(Integer.parseInt(input));
-            } catch (NumberFormatException e) {
+            }
+            catch (NumberFormatException e) {
                 System.out.println("Invalid input. Please enter integers.");
             }
         }
