@@ -33,3 +33,16 @@ public class RemoveDuplicates {
     }
 
 }
+
+
+/*
+I/P ->
+Enter number of elements:
+7
+Enter 7 integers:
+2 4 3 2 2 5 3
+
+O/P->
+Resulting list:
+2 4 3 5
+ */
